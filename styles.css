@@ -1,0 +1,17 @@
+.avatar {
+    max-width: 200px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.references {
+    display: flex;
+    list-style-type: none;
+}
+.references a {
+    margin-right: 1rem;
+    text-decoration: none;
+}
