@@ -15,3 +15,32 @@ img {
     margin-right: 1rem;
     text-decoration: none;
 }
+.table {
+    width: 100%;
+}
+.table tr {
+    padding-bottom: 0.5rem;
+}
+.table td:first-child {
+    background: lightseagreen;
+}
+.table td:hover {
+    background: #eeefff;
+    cursor: pointer;
+}
+.table tr:nth-child(odd) {
+    background-color: aqua;
+}
+
+.contact_form {
+    /* display: flex; */
+    border-radius: 10%;
+    background: lightcyan;
+}
+
+
+input[value="submit!"] {
+    background: rgb(20, 12, 12);
+    color: wheat;
+    padding: 0.5rem;
+}
